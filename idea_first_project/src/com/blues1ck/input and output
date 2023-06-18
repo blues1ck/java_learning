@@ -1,0 +1,29 @@
+        /* data types
+        целочисленные int или integer -- int age;
+        целочисленный byte от -128 до 127 -- byte a
+        целочисленный short от -32000 до 32000
+        целочисленный long 10^18
+
+        вещественное float -- num = 4.345f;
+        вещественное double то же самое -- num = 4.343;
+
+        символьный char -- char ch = 'a'
+        строчный String -- String str = "NJFKdngjemnrgj benrkgle_fjne"
+
+        булевый boolean -- is_happy = false;
+        */
+
+        int age = -56;
+        System.out.println(age);
+        // default output
+        System.out.println("Hello, world!");
+        System.out.print("sup");
+
+        // output with special simbols
+        System.out.println("\nHello,\nworld!");
+        System.out.println("Hello\t, \n\tworld!");
+        System.out.println("Hello\\\t \" world!");
+
+        //default input
+        Scanner scan = new Scanner(System.in);
+        scan.nextLine();

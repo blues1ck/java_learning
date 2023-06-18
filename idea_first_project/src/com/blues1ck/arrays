@@ -1,0 +1,14 @@
+int[] array = new int[10];
+for (int i = 0; i < array.length; i++){
+    array[i] = i*i;
+}
+float[] fl_array = new float[] {1.2f, 2, 3.4f};
+
+//многомерный массив
+int[][] array_2 = new int[3][3];
+for (int i = 0; i < array_2.length; i++){
+    for (int j = 0; j < array_2[i].length; j++){
+        array_2[i][j] = i*i+2*i*j+j*j;
+    }
+}
+System.out.print(Arrays.deepToString(array_2));

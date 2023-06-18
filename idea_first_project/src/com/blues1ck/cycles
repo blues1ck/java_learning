@@ -1,0 +1,32 @@
+
+// cycles
+
+//for
+for(int i = 0; i < 10; i++){
+    System.out.println(i + " element");
+}
+for(float j = 100; j > 10; j /= 2){
+    System.out.println("Element is " + j);
+}
+
+//while
+float j = 12.5f;
+while (j > 10){
+    System.out.println(j);
+    j --;
+}
+
+// do while
+do {
+    System.out.println("dowhile"+j);
+    j --;
+} while (j>10);
+
+// break, continue
+for (float i = 10.5f; i < 25; i++){
+    if (i==12.5){
+        continue; // skipping itterations
+    } else if (i==13.5){
+        break; // stopping itterations
+    }
+    System.out.println(i);

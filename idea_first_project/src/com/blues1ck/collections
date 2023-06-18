@@ -1,0 +1,19 @@
+Scanner scan = new Scanner(System.in);
+
+// array with dinamic lenght
+ArrayList<Integer> nums = new ArrayList<>();
+for (int i = 0; i < 10; i++){
+    int a = scan.nextInt();
+    nums.add(a);
+}
+System.out.println(nums);
+for (Integer el: nums){
+    el *= 2;
+}
+for (Integer el: nums) {
+    System.out.print(el + " ");
+}
+// linked list
+LinkedList<Float> l_list = new LinkedList<>();
+l_list.add(34.43f);
+System.out.println(l_list.size());
